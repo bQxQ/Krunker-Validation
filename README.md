@@ -1,2 +1,3 @@
 # Krunker-Validation
-Free Krunker Validation API
+
+generate a valid Krunker validation token
