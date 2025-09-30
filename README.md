@@ -1,3 +1,3 @@
 # Krunker-Validation
 
-generate a valid Krunker validation token
+api generates a valid Krunker validation token
