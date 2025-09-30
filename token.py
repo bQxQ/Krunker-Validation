@@ -1,7 +1,6 @@
 import requests, json
 
 api='https://token-api67.vercel.app/cleanest/token' #free token gen
-
 def get_token():
     print('req token...')
     try:
