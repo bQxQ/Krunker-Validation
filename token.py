@@ -1,11 +1,11 @@
 import requests, json
 
-API_URL='https://token-api67.vercel.app/cleanest/token' #free token gen
+api='https://token-api67.vercel.app/cleanest/token' #free token gen
 
 def get_token():
     print('req token...')
     try:
-        r=requests.post(API_URL,headers={'Content-Type':'application/json'},timeout=10)
+        r=requests.post(api,headers={'Content-Type':'application/json'},timeout=10)
         d=r.json()
         print(json.dumps(d,indent=2))
         return d
